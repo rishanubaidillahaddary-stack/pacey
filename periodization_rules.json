@@ -1,0 +1,37 @@
+{
+  "_catatan": "Aturan ini diturunkan dari prinsip periodisasi Lydiard/Bompa di basis pengetahuan (bagian 3.1 & 6). Persentase durasi fase adalah pendekatan umum coaching, bukan angka mutlak — bisa disesuaikan.",
+
+  "race_goal_periodization": {
+    "deskripsi": "Dipakai kalau user punya target race dengan tanggal spesifik",
+    "phases": [
+      {"name": "base", "pct_of_total_weeks": 0.45, "fokus": "Volume aerobik, easy pace dominan, membangun fondasi sebelum tambah intensitas"},
+      {"name": "build", "pct_of_total_weeks": 0.30, "fokus": "Mulai masuk threshold/tempo, tambah sedikit race-pace work"},
+      {"name": "peak", "pct_of_total_weeks": 0.15, "fokus": "Kualitas spesifik race-pace, volume tetap tinggi"},
+      {"name": "taper", "pct_of_total_weeks": 0.10, "fokus": "Turunkan volume drastis, jaga sedikit intensitas, prioritas recovery penuh sebelum hari-H"}
+    ]
+  },
+
+  "maintenance_goal_periodization": {
+    "deskripsi": "Dipakai kalau user tidak punya target race, hanya ingin maintain/berkembang perlahan",
+    "phases": [
+      {"name": "base_rotation", "pct_of_total_weeks": 1.0, "fokus": "Rotasi volume ringan-sedang tanpa fase peak, prioritas konsistensi jangka panjang & minim risiko cedera"}
+    ]
+  },
+
+  "experience_level_volume_modifier": {
+    "_catatan": "Pengali volume mingguan relatif terhadap volume 'standar' di tabel program per level (bagian 7 dokumen)",
+    "pemula_absolut": 0.6,
+    "rekreasional": 0.85,
+    "kompetitif_amatir": 1.0,
+    "elit": 1.2
+  },
+
+  "guardrail_kelayakan_target": {
+    "_catatan": "Aturan sederhana untuk menolak/mengoreksi target yang tidak realistis sebelum jadwal dibuat",
+    "minimal_minggu_dari_nol_ke_5k": 8,
+    "minimal_minggu_dari_nol_ke_10k": 12,
+    "minimal_minggu_dari_nol_ke_half_marathon": 20,
+    "minimal_minggu_dari_nol_ke_marathon": 28,
+    "catatan_penting": "Angka ini pendekatan konservatif untuk pemula absolut, harus divalidasi lebih lanjut — bukan hasil dari studi spesifik, tapi konsensus umum praktik coaching."
+  }
+}
