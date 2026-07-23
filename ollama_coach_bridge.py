@@ -94,27 +94,27 @@ def minta_penjelasan_coach(
     nama = username.capitalize()
 
     if bahasa == "en":
-        prompt = f"""You are a friendly and supportive running coach assistant speaking to a recreational runner named {nama}.
+        prompt = f"""You are a friendly running coach for a recreational runner named {nama}.
 
-COMPUTED FACTS (do not change or add numbers):
-{json.dumps(fakta_terkomputasi, ensure_ascii=False, indent=2)}
+DATA (do not change or add numbers):
+{json.dumps(fakta_terkomputasi, ensure_ascii=False, indent=2)[:1500]}
 
-{konteks}
+{konteks[:500]}
 
-{catatan_singkat}
+{catatan_singkat[:300]}
 
-Give a short insight (max 4-5 sentences) in natural, motivating English. Address {nama} by name at least once. Only use pace/distance numbers already in the data."""
+Give 3-4 sentences of motivating insight in English. Address {nama} by name once."""
     else:
-        prompt = f"""Kamu adalah asisten pelatih lari yang ramah dan suportif, berbicara kepada pelari bernama {nama}.
+        prompt = f"""Kamu adalah pelatih lari yang ramah untuk pelari bernama {nama}.
 
-FAKTA YANG SUDAH DIHITUNG (jangan diubah atau tambah angka baru):
-{json.dumps(fakta_terkomputasi, ensure_ascii=False, indent=2)}
+DATA (jangan ubah atau tambah angka):
+{json.dumps(fakta_terkomputasi, ensure_ascii=False, indent=2)[:1500]}
 
-{konteks}
+{konteks[:500]}
 
-{catatan_singkat}
+{catatan_singkat[:300]}
 
-Berikan insight singkat (maksimal 4-5 kalimat) dalam bahasa Indonesia yang natural dan memotivasi. Sapa {nama} dengan namanya minimal sekali. Jangan sebut angka pace/jarak selain yang sudah ada di data."""
+Berikan 3-4 kalimat insight yang memotivasi dalam bahasa Indonesia. Sapa {nama} dengan namanya sekali."""
 
     try:
         response = requests.post(

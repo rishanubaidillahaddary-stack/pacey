@@ -27,7 +27,7 @@ db.init_db()
 st.markdown("""
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-/* ── Global ── */
+/* -- Global -- */
 html, body, [class*="css"] {
     font-family: 'Inter', sans-serif !important;
 }
@@ -35,10 +35,10 @@ html, body, [class*="css"] {
     background-color: #EEF1F7 !important;
 }
 
-/* ── Sembunyikan header & footer bawaan Streamlit ── */
+/* -- Sembunyikan header & footer bawaan Streamlit -- */
 #MainMenu, footer, header { visibility: hidden; }
 
-/* ── PaceY Logo Header ── */
+/* -- PaceY Logo Header -- */
 .pacey-logo {
     display: flex;
     align-items: center;
@@ -67,7 +67,7 @@ html, body, [class*="css"] {
     color: #5B7FA6;
 }
 
-/* ── Cards ── */
+/* -- Cards -- */
 div[data-testid="stVerticalBlock"] > div[data-testid="stVerticalBlock"] {
     background: white;
     border-radius: 16px;
@@ -75,7 +75,7 @@ div[data-testid="stVerticalBlock"] > div[data-testid="stVerticalBlock"] {
     box-shadow: 0 2px 12px rgba(44,62,90,0.07);
 }
 
-/* ── Metric cards ── */
+/* -- Metric cards -- */
 div[data-testid="stMetric"] {
     background: white;
     border-radius: 14px;
@@ -100,7 +100,7 @@ div[data-testid="stMetricValue"] {
     color: #2C3E5A !important;
 }
 
-/* ── Tombol utama ── */
+/* -- Tombol utama -- */
 .stButton > button {
     background: #5B7FA6 !important;
     color: white !important;
@@ -123,7 +123,7 @@ div[data-testid="stMetricValue"] {
     box-shadow: 0 2px 6px rgba(91,127,166,0.25) !important;
 }
 
-/* ── Tombol secondary (hapus profil) ── */
+/* -- Tombol secondary (hapus profil) -- */
 .stButton > button[kind="secondary"] {
     background: white !important;
     color: #8A9BB5 !important;
@@ -136,7 +136,7 @@ div[data-testid="stMetricValue"] {
     background: #F4F7FB !important;
 }
 
-/* ── Input fields ── */
+/* -- Input fields -- */
 .stTextInput > div > div > input,
 .stNumberInput > div > div > input,
 .stTextArea textarea {
@@ -155,14 +155,14 @@ div[data-testid="stMetricValue"] {
     box-shadow: 0 0 0 3px rgba(91,127,166,0.12) !important;
 }
 
-/* ── Select box ── */
+/* -- Select box -- */
 .stSelectbox > div > div {
     border-radius: 10px !important;
     border: 1.5px solid #D8E0EC !important;
     background: #F8FAFD !important;
 }
 
-/* ── Tabs ── */
+/* -- Tabs -- */
 .stTabs [data-baseweb="tab-list"] {
     background: white;
     border-radius: 12px;
@@ -183,28 +183,28 @@ div[data-testid="stMetricValue"] {
     color: white !important;
 }
 
-/* ── Info / success / warning boxes ── */
+/* -- Info / success / warning boxes -- */
 .stAlert {
     border-radius: 12px !important;
     border: none !important;
     font-family: 'Inter', sans-serif !important;
 }
 
-/* ── Dataframe / tabel ── */
+/* -- Dataframe / tabel -- */
 .stDataFrame {
     border-radius: 12px !important;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(44,62,90,0.07);
 }
 
-/* ── Divider ── */
+/* -- Divider -- */
 hr {
     border: none !important;
     border-top: 1.5px solid #E8EDF5 !important;
     margin: 20px 0 !important;
 }
 
-/* ── Subheader & label ── */
+/* -- Subheader & label -- */
 h2, h3 {
     color: #2C3E5A !important;
     font-weight: 700 !important;
@@ -216,13 +216,13 @@ label, .stRadio label, .stCheckbox label {
     font-size: 14px !important;
 }
 
-/* ── Caption ── */
+/* -- Caption -- */
 .stCaption, small {
     color: #8A9BB5 !important;
     font-size: 12px !important;
 }
 
-/* ── Spinner ── */
+/* -- Spinner -- */
 .stSpinner > div {
     border-top-color: #5B7FA6 !important;
 }
