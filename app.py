@@ -40,15 +40,15 @@ UI = {
         "buat_baru": "**Atau buat profil baru:**",
         "username_placeholder": "contoh: rishan",
         "pin_placeholder": "PIN 6 digit",
-        "btn_masuk": "🔑 Masuk",
-        "btn_buat": "➕ Buat Profil",
+        "btn_masuk": "Masuk",
+        "btn_buat": "Buat Profil",
         "err_username_kosong": "Isi username dulu.",
         "err_username_format": "Pakai huruf/angka/underscore aja.",
         "err_pin_format": "PIN harus 6 digit angka.",
         "err_pin_salah": "PIN salah.",
         "label_ganti": "(ganti)",
-        "tab_hari_ini": "🏃 Hari Ini",
-        "tab_pengaturan": "⚙️ Pengaturan & Kalibrasi",
+        "tab_hari_ini": "Hari Ini",
+        "tab_pengaturan": "Pengaturan & Kalibrasi",
         "belum_ada_jadwal": "Belum ada jadwal untuk hari ini. Buat jadwal dulu di tab **Pengaturan & Kalibrasi**.",
         "rencana_hari_ini": "Rencana Hari Ini",
         "jenis_sesi": "Jenis Sesi",
@@ -66,12 +66,12 @@ UI = {
         "catatan": "Catatan tambahan (opsional)",
         "simpan_log": "Simpan Log",
         "log_tersimpan": "Log tersimpan!",
-        "jadwal_minggu": "📅 Jadwal Minggu Ini (yang belum dijalani)",
+        "jadwal_minggu": "Jadwal Minggu Ini",
         "jadwal_kosong": "Semua jadwal minggu ini sudah dijalani, atau belum ada jadwal.",
-        "riwayat": "📋 Riwayat Sesi Terakhir (sudah dijalankan)",
+        "riwayat": "Riwayat Sesi",
         "riwayat_kosong": "Belum ada sesi yang sudah dicatat. Log dulu sesi hari ini!",
         "riwayat_caption": "↑ Paling lama di atas · paling baru di bawah",
-        "coach_title": "🤖 Insight dari Coach",
+        "coach_title": "Insight dari Coach",
         "coach_btn_feedback": "Minta feedback sesi hari ini",
         "coach_btn_panduan": "Minta panduan sesi hari ini",
         "coach_spinner": "Coach lagi mikir...",
@@ -113,7 +113,7 @@ UI = {
         "hapus_judul": "#### ⚠️ Hapus Profil Ini",
         "hapus_caption": "Hati-hati: ini hapus semua data dan riwayat lari untuk profil ini secara permanen.",
         "hapus_konfirmasi": "Ketik nama profil untuk konfirmasi hapus:",
-        "btn_hapus": "🗑️ Hapus Profil",
+        "btn_hapus": "Hapus Profil",
         "hapus_sukses": "Profil dihapus.",
         "hapus_gagal": "Nama tidak cocok. Tulis persis nama profilnya.",
         "col_no": "No", "col_tanggal": "Tanggal", "col_sesi": "Sesi", "col_zona": "Zona",
@@ -127,15 +127,15 @@ UI = {
         "buat_baru": "**Or create a new profile:**",
         "username_placeholder": "e.g. rishan",
         "pin_placeholder": "6-digit PIN",
-        "btn_masuk": "🔑 Sign In",
-        "btn_buat": "➕ Create Profile",
+        "btn_masuk": "Sign In",
+        "btn_buat": "Create Profile",
         "err_username_kosong": "Please enter a username.",
         "err_username_format": "Use letters, numbers, or underscore only.",
         "err_pin_format": "PIN must be exactly 6 digits.",
         "err_pin_salah": "Incorrect PIN.",
         "label_ganti": "(switch)",
-        "tab_hari_ini": "🏃 Today",
-        "tab_pengaturan": "⚙️ Settings & Calibration",
+        "tab_hari_ini": "Today",
+        "tab_pengaturan": "Settings & Calibration",
         "belum_ada_jadwal": "No schedule for today. Create one in the **Settings & Calibration** tab.",
         "rencana_hari_ini": "Today's Plan",
         "jenis_sesi": "Session Type",
@@ -153,12 +153,12 @@ UI = {
         "catatan": "Additional notes (optional)",
         "simpan_log": "Save Log",
         "log_tersimpan": "Log saved!",
-        "jadwal_minggu": "📅 This Week's Schedule (upcoming)",
+        "jadwal_minggu": "Jadwal Minggu Ini",
         "jadwal_kosong": "All sessions this week are done, or no schedule yet.",
-        "riwayat": "📋 Recent Session History (completed/skipped)",
+        "riwayat": "Recent Sessions",
         "riwayat_kosong": "No sessions logged yet. Log today's session first!",
         "riwayat_caption": "↑ Oldest at top · newest at bottom",
-        "coach_title": "🤖 Coach Insight",
+        "coach_title": "Coach Insight",
         "coach_btn_feedback": "Get feedback on today's session",
         "coach_btn_panduan": "Get guidance for today's session",
         "coach_spinner": "Coach is thinking...",
@@ -200,7 +200,7 @@ UI = {
         "hapus_judul": "#### ⚠️ Delete This Profile",
         "hapus_caption": "Warning: this permanently deletes all data and run history for this profile.",
         "hapus_konfirmasi": "Type the profile name to confirm deletion:",
-        "btn_hapus": "🗑️ Delete Profile",
+        "btn_hapus": "Delete Profile",
         "hapus_sukses": "Profile deleted.",
         "hapus_gagal": "Name doesn't match. Type the exact profile name.",
         "col_no": "No", "col_tanggal": "Date", "col_sesi": "Session", "col_zona": "Zone",
@@ -210,12 +210,12 @@ UI = {
 }
 
 LABEL_SESI = {
-    "easy_run":   {"id": "🟢 Easy Run — lari santai pembangun aerobik",       "en": "🟢 Easy Run — steady aerobic builder"},
-    "long_run":   {"id": "🔵 Long Run — lari panjang mingguan",               "en": "🔵 Long Run — weekly long effort"},
-    "tempo":      {"id": "🟡 Tempo — lari ambang batas, cukup keras",          "en": "🟡 Tempo — threshold pace, comfortably hard"},
-    "interval":   {"id": "🔴 Interval — sprint pendek berulang, intensitas tinggi", "en": "🔴 Interval — repeated fast efforts, high intensity"},
-    "repetition": {"id": "🟣 Repetisi — pengulangan cepat, membangun kecepatan",    "en": "🟣 Repetition — fast reps, building speed"},
-    "rest":       {"id": "⚪ Rest — hari istirahat",                           "en": "⚪ Rest — recovery day"},
+    "easy_run":   {"id": "Easy Run — lari santai pembangun aerobik",       "en": "🟢 Easy Run — steady aerobic builder"},
+    "long_run":   {"id": "Long Run — lari panjang mingguan",               "en": "🔵 Long Run — weekly long effort"},
+    "tempo":      {"id": "Tempo — lari ambang batas, cukup keras",          "en": "🟡 Tempo — threshold pace, comfortably hard"},
+    "interval":   {"id": "Interval — sprint pendek berulang, intensitas tinggi", "en": "🔴 Interval — repeated fast efforts, high intensity"},
+    "repetition": {"id": "Repetisi — pengulangan cepat, membangun kecepatan",    "en": "🟣 Repetition — fast reps, building speed"},
+    "rest":       {"id": "Rest — hari istirahat",                           "en": "⚪ Rest — recovery day"},
 }
 LABEL_ZONA = {
     "E": {"id": "E (Easy/Aerobik)", "en": "E (Easy/Aerobic)"},
@@ -245,14 +245,17 @@ def label_zona(kode, lang: str = "id") -> str:
 # KOMPONEN LOGO
 # ─────────────────────────────────────────────
 def render_logo(size: str = "normal"):
-    """Render logo PaceY. size: 'normal' atau 'large'."""
-    font_size = "28px" if size == "large" else "22px"
-    icon_size = "46px" if size == "large" else "38px"
-    icon_font = "24px" if size == "large" else "20px"
-    st.markdown(f"""
+    """Render logo PaceY."""
+    if size == "large":
+        st.markdown("""
+    <div class="pacey-logo-large">
+        <div class="pacey-logo-text">Pace<span>Y</span></div>
+    </div>
+    """, unsafe_allow_html=True)
+    else:
+        st.markdown("""
     <div class="pacey-logo">
-        <div class="pacey-logo-icon" style="width:{icon_size};height:{icon_size};font-size:{icon_font};">👟</div>
-        <div class="pacey-logo-text" style="font-size:{font_size};">Pace<span>Y</span></div>
+        <div class="pacey-logo-text">Pace<span>Y</span></div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -359,7 +362,7 @@ with col_judul:
     render_logo()
 with col_user:
     st.markdown("<br><br>", unsafe_allow_html=True)
-    if st.button(f"👤 {USERNAME.capitalize()} {t('label_ganti', LANG)}", use_container_width=True):
+    if st.button(f"{USERNAME.capitalize()} {t('label_ganti', LANG)}", use_container_width=True):
         for k in ["username", "lang", "vdot"]:
             st.session_state.pop(k, None)
         st.rerun()
